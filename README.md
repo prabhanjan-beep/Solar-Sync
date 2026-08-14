@@ -1,22 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/5575396c-c000-4eac-a380-17c2b8062e54
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+SolarSync is a solar-powered smart storage system designed to reduce post-harvest losses in rural areas where unreliable electricity can affect the quality and shelf life of agricultural produce.
+The system combines solar energy, IoT sensors, AI-based monitoring, automatic cooling, and a mobile application to create an intelligent storage environment. Temperature, humidity, and other storage conditions are continuously monitored through sensors connected to an ESP32 controller. Based on the collected data, the system can identify unfavorable conditions, activate cooling or ventilation, and send alerts to the farmer.
+The SolarSync mobile app provides real-time information such as temperature, humidity, battery level, solar generation, storage health, spoilage risk, shelf-life estimation, cooling status, and alerts. A cloud platform can store historical data and provide analytics for farmers, cooperatives, and future large-scale deployments.
+Key Features
+☀️ Solar-powered operation with battery backup
+🌡️ Real-time temperature monitoring
+💧 Humidity monitoring and control
+🤖 AI-based spoilage-risk and shelf-life prediction
+❄️ Automatic cooling/ventilation
+📱 Mobile app for remote monitoring
+🔔 Smart alerts and notifications
+📊 Energy and storage analytics
+📦 Digital inventory management
+📷 Potential AI-based produce quality detection
+📶 Offline-first operation for unreliable rural connectivity
+Working Principle
+Solar Energy → Battery → ESP32 → Sensors → AI Analysis → Automatic Control → Cloud → Mobile App → Farmer
+The goal is not simply to provide another storage box, but to create an intelligent, energy-efficient post-harvest management platform that helps farmers preserve produce for longer, reduce avoidable losses, lower operating costs, and protect their income
